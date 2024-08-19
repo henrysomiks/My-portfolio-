@@ -1,0 +1,103 @@
+body{
+    
+    background-color: black;
+    
+    
+}
+.pro{
+    height: 100px;
+    width: 100px;
+    border: 10px solid gold;
+    padding: 0px;
+    border-radius: 50%;
+    
+}
+h1{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: gold;
+}
+.p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.containers{
+    display: flex;
+    align-items: center;
+    gap: 13rem;
+    
+    
+
+}
+.card{
+    max-width: 100%;
+    
+    flex: 4;
+
+    
+}
+.type{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+    font-weight: 900;
+    
+}
+.me{
+    height: 100px;
+    width: 100px;
+    
+}
+.discrip{
+    color: white;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+li{
+    list-style: none;
+}
+
+@media (max-width: 680px) {
+    .containers{
+      display: inline;
+      height: 100%;
+    }
+  }
+
+  .cont{
+    display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 1fr 1fr;
+    gap: 100px;
+    
+
+  }
+  .card2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+    
+  }
+  @media (max-width: 680px) {
+    .cont{
+      display: inline;
+      height: 100%;
+    }
+  }
+
+  footer{
+    color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 50px;
+    
+  }
+  
+  
